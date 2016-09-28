@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Universal_adapter.iml" filepath="$PROJECT_DIR$/Universal_adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universal_adapter_listview&amp;gridview/universal_adapter_listview&amp;gridview.iml" filepath="$PROJECT_DIR$/universal_adapter_listview&amp;gridview/universal_adapter_listview&amp;gridview.iml" />
+    </modules>
+  </component>
+</project>

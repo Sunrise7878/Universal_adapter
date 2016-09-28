@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="我是标题"
+        android:textColor="#444"/>
+    <TextView
+        android:id="@+id/id_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_title"
+        android:minLines="1"
+        android:maxLines="2"
+        android:text="Android打造万能的ListView和GridView适配器"
+        android:textColor="#898989"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/id_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_info"
+        android:minLines="1"
+        android:maxLines="2"
+        android:text="2016-09-26"
+        android:textColor="#898989"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
