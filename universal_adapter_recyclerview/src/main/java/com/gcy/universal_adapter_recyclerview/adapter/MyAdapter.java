@@ -30,14 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new MyViewHolder(mInflater.inflate(R.layout.item_recyclerview, parent, false)) {
-            @Override
-            public void getViews(View itemView) {
-                mTilte = (TextView) itemView.findViewById(R.id.id_title);
-                mInfo = (TextView) itemView.findViewById(R.id.id_info);
-                mTime = (TextView) itemView.findViewById(R.id.id_time);
-            }
-        };
+        return new MyViewHolder(mInflater.inflate(R.layout.item_recyclerview, parent, false));
     }
 
     @Override
@@ -52,20 +45,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         return mDatas.size();
     }
 
-    abstract class MyViewHolder extends RecyclerView.ViewHolder{
+    class MyViewHolder extends RecyclerView.ViewHolder{
         TextView mTilte;
         TextView mInfo;
         TextView mTime;
         public MyViewHolder(View itemView) {
             super(itemView);
-            getViews(itemView);
-            /*mTilte = (TextView) itemView.findViewById(R.id.id_title);
+            mTilte = (TextView) itemView.findViewById(R.id.id_title);
             mInfo = (TextView) itemView.findViewById(R.id.id_info);
-            mTime = (TextView) itemView.findViewById(R.id.id_time);*/
+            mTime = (TextView) itemView.findViewById(R.id.id_time);
         }
 
-        public abstract void getViews(View itemView);
     }
-
-
 }

@@ -35,10 +35,7 @@ public class BaseViewHolder extends RecyclerView.ViewHolder {
         return (T) view;
     }
 
-    //获取ItemView
-    public View getItemView() {
-        return itemView;
-    }
+
     /**
      * 辅助方法，减少用户为控件设置值的代码
      */

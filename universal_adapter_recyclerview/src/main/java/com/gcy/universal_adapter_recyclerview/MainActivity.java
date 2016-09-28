@@ -29,10 +29,13 @@ public class MainActivity extends AppCompatActivity {
     private void initRecyclerView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.id_recyclerview);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        //此处我们使用匿名内部类的方式来为mRecyclerView设置Adapter
         mRecyclerView.setAdapter(new MyBaseAdapter<Bean>(R.layout.item_recyclerview , this , mDatas) {
             @Override
             public void blindViewHolder(BaseViewHolder holder, Bean bean) {
-                holder.setText2TextView(R.id.id_title , bean.getTitle()).setText2TextView(R.id.id_info , bean.getInfo()).setText2TextView(R.id.id_time,bean.getTime());
+                holder.setText2TextView(R.id.id_title , bean.getTitle())
+                        .setText2TextView(R.id.id_info , bean.getInfo())
+                        .setText2TextView(R.id.id_time,bean.getTime());
             }
         });
         mRecyclerView.addItemDecoration(new DividerItemDecoration(this , DividerItemDecoration.VERTICAL_LIST));
