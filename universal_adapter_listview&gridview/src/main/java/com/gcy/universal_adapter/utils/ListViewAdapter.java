@@ -1,12 +1,11 @@
 package com.gcy.universal_adapter.utils;
 
-import android.content.Context;
-import android.widget.TextView;
+        import android.content.Context;
 
-import com.gcy.universal_adapter.Bean;
-import com.gcy.universal_adapter.R;
+        import com.gcy.universal_adapter.Bean;
+        import com.gcy.universal_adapter.R;
 
-import java.util.List;
+        import java.util.List;
 
 /**
  * Created by gcy71 on 2016/9/27.

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         mDatas = new ArrayList<Bean>();
         for(int i=1 ; i<=10 ; i++){
-            mDatas.add(new Bean("我是标题 " + i, "Android打造ListView和GridView万能适配器" , "2016-09-27"));
+            mDatas.add(new Bean("我是标题 " + i, "Android打造ListView和GridView万能适配器" , "2016-09-28"));
         }
     }
 }

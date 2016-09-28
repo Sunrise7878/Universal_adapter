@@ -1,1 +1,1 @@
-include ':universal_adapter_listview&gridview'
+include ':universal_adapter_listview&gridview', ':universal_adapter_recyclerview'

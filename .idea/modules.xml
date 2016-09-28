@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Universal_adapter.iml" filepath="$PROJECT_DIR$/Universal_adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/universal_adapter_listview&amp;gridview/universal_adapter_listview&amp;gridview.iml" filepath="$PROJECT_DIR$/universal_adapter_listview&amp;gridview/universal_adapter_listview&amp;gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universal_adapter_recyclerview/universal_adapter_recyclerview.iml" filepath="$PROJECT_DIR$/universal_adapter_recyclerview/universal_adapter_recyclerview.iml" />
     </modules>
   </component>
 </project>
